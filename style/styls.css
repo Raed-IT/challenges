@@ -1,0 +1,112 @@
+body {
+  /*  70 px height navigation bar + 20px padding 10px to and 10px bottom  + 1.33 width border button   */
+  height: calc(100vh - 91.33px);
+  padding: 0px;
+  margin: 0px;
+  background-image: url("./../images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button {
+  cursor: pointer;
+}
+
+/* start navigation bar  */
+
+.navigation_bar {
+  padding: 10px;
+  height: 70px;
+}
+
+.navigation_bar ul {
+  position: relative;
+  left: 60%;
+  width: 32%;
+  display: inline-block;
+  list-style: none;
+  height: 50px;
+}
+.navigation_bar li {
+  display: inline-block;
+  width: 14%;
+  margin-left: 5%;
+}
+/* styling logo in navigation bar*/
+.logo {
+  font-size: 29px !important;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* styling button in navigation bar  */
+.navigation_bar button {
+  background-color: Transparent;
+  border: 3px solid rgb(73, 119, 113);
+  color: rgb(73, 119, 113);
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  transition-duration: 0.7s;
+}
+.navigation_bar li:hover {
+  color: rgb(73, 119, 113);
+  font-size: 29px;
+}
+.navigation_bar button:hover {
+  background-color: rgb(73, 119, 113);
+  color: white;
+}
+
+/* set default style for logo and li in navigation bar   */
+.navigation_bar li,
+.logo {
+  cursor: pointer;
+  transition-duration: 0.5s;
+  display: inline-block;
+  color: white;
+  font-size: 27px;
+}
+/*  set padding left and right class    */
+.padding {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* add border bottom for element */
+.divider {
+  border-bottom: 1px solid #bbb;
+}
+/* end  navigation bar  */
+
+/*  */
+
+/* start content styling  */
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  color: white;
+}
+
+.content span {
+  font-size: 100px;
+}
+.content p {
+  font-size: 30px;
+}
+.content button{
+    background-color: rgb(0, 159, 139); 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
